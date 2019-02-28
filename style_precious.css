@@ -1,0 +1,66 @@
+body
+{
+  font-family: Calibri, sans-serif;
+  font-size: 1em;
+}
+
+.gandalf
+{
+	width: 100%;
+	min-width: 220px;
+	position: relative;
+	text-align: center;
+}
+
+.gandalf p
+{
+	width: 75%;
+	font-size: 1.7em;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding : 0.1em 0.5em;
+	border-radius : 15px;
+	position : absolute;
+	margin: 0;
+	top : 0.2em;
+	left : 50%;
+	transform: translate(-50%);
+}
+
+.gandalf h3
+{
+	color : #ffffff;
+	font-size: 3em;
+	position : absolute;
+	bottom: 0.5em;
+   	left: 50%;
+  	transform: translate(-50%);
+	font-weight: normal;
+}
+
+.gandalf em
+{
+	color : #FF5733;
+	font-style : normal;
+}
+
+.gandalf img
+{
+	width: 100%;
+	opacity: 0.4;
+}
+
+.gandalf:hover img
+{
+	opacity: 1.0;
+}
+
+.gandalf:hover h3
+{
+	font-size: 2em;
+	bottom: 0.1em;
+}
+
+.gandalf:hover p
+{
+	display: none;
+}
