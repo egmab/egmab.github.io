@@ -1,0 +1,261 @@
+/* Définition des polices personnalisées */
+@font-face
+{
+    font-family: "Aniron";
+    src: url('fonts/anirb___.ttf');
+}
+
+@font-face
+{
+    font-family: "Tengwar";
+    src: url('fonts/tngani.ttf');
+}
+
+@font-face
+{
+    font-family: "partybusiness";
+    src: url('fonts/partybusiness.ttf');
+}
+
+
+/* Styles des blocs conteneurs */
+body
+{
+  	font-family: "partybusiness", sans-serif;
+  	font-size: 1.2em;
+}
+
+.fond_dark
+{
+	background: url('images/bg_dark.png');
+	color: white;
+}
+.fond_clair, .contenu_dark
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+.card-text
+{
+	font-size: 1.4em;
+}
+.container
+{
+	background: url('images/bg_light.png');
+	padding: 0;
+}
+
+/* Défintion des couleurs personnalisées */
+.orange
+{
+	background-color: #F86424;
+}
+
+.noir
+{
+	background-color: black;
+	color: #E5E0E0;
+}
+a
+{
+	color :#6D6A6A;
+}
+
+/* Styles des navigations */
+
+/* Menu principal*/
+.navbar-nav
+{
+	font-size: 1em;
+	padding-bottom: 2px;
+	font-family: "Aniron", sans-serif;
+}
+
+.lienMenu, .lienMenuLast, .most
+{
+	padding-top: 0;
+	padding-bottom: 0;
+	text-decoration: none;
+}
+
+.separator
+{
+	font-family: arial;
+	color: white;
+}
+
+@media (min-width:1025px)
+{
+	.menu:hover
+	{
+		border-bottom: 3px solid white;
+	}
+}
+
+/*Navigation des portraits */
+.item-portrait
+{
+	height:45px;
+}
+.menu-portrait
+{
+	padding:5px;
+	font-size: 1.2em;
+}
+
+.most:hover /* Most = class des liens du menu portrait */
+{
+	border-bottom: 3px solid #F86424;
+	color: #F86424;
+}
+.most:hover:after
+{
+	content: " b";
+	font-family: Tengwar;
+}
+.most:hover:before
+{
+	content: "b ";
+	font-family: Tengwar;
+}
+
+/* Styles du slider */
+
+.titre-slider
+{
+	font-size: 3em;
+	font-family: "partybusiness", sans-serif;
+}
+
+.sous-titre-slider
+{
+	font-size: 2.4em;
+}
+
+.carousel-caption
+{
+	top:30%;
+	bottom: 10%;
+}
+
+/* Styles des titre */
+h1, h2, h3
+{
+	font-family: "Aniron", sans-serif;
+}
+h2
+{
+	padding-left: 1em;
+}
+h1
+{
+	font-size: 1.4em;
+}
+h2
+{
+	font-size: 1.4em;
+}
+
+h2:before
+{
+	content: "ij ";
+	font-family: Tengwar;
+	color: #F86424;
+}
+h2:after
+{
+	content: " ij";
+	font-family: Tengwar;
+	color: #F86424;
+}
+h3
+{
+	font-size: 1.3em;
+}
+
+.soustitre
+{
+	font-size: 0.7em;
+}
+
+.pseudo
+{
+	color:#F86424;
+	font-size: 2em;
+}
+
+/* Format de portraits */
+
+.gandalf
+{
+	width: 100%;
+	min-width: 220px;
+	position: relative;
+	text-align: center;
+}
+
+.gandalf p
+{
+	width: 75%;
+	font-size: 1.7em;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding : 0.1em 0.5em;
+	border-radius : 15px;
+	position : absolute;
+	margin: 0;
+	top : 0.2em;
+	left : 50%;
+	transform: translate(-50%);
+}
+.gimli p
+{
+	background-color: transparent;
+	font-size: 2em;
+}
+.gimli h3
+{
+	text-decoration: line-through;
+	text-decoration-color: #F86424;
+}
+
+.gandalf h3
+{
+	color : #ffffff;
+	font-size: 2.8em;
+	position : absolute;
+	bottom: 1.4em;
+   	left: 50%;
+  	transform: translate(-50%);
+	font-weight: normal;
+	font-family: "partybusiness", sans-serif;
+}
+
+.gandalf em
+{
+	color : #FF5733;
+	font-style : normal;
+}
+
+.gandalf img
+{
+	width: 100%;
+	opacity: 0.4;
+}
+
+.gandalf:hover img
+{
+	opacity: 1.0;
+}
+
+.gandalf:hover h3
+{
+	font-size: 2em;
+	bottom: 0.1em;
+}
+
+.gandalf:hover p
+{
+	display: none;
+}
