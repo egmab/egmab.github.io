@@ -17,6 +17,13 @@
     src: url('fonts/partybusiness.ttf');
 }
 
+.titleRing {
+  width: 50px;
+  height: 50px;
+  border: solid 5px #f8b31f;
+  border-radius: 50%;
+  box-shadow: 7.1428571429px 6.25px 6.25px #936605;
+}
 
 /* Styles des blocs conteneurs */
 body

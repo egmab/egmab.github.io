@@ -1,0 +1,170 @@
+/* Définition des polices personnalisées */
+@font-face
+{
+    font-family: "Aniron";
+    src: url('fonts/anirb___.ttf');
+}
+
+@font-face
+{
+    font-family: "Tengwar";
+    src: url('fonts/tngani.ttf');
+}
+
+@font-face
+{
+    font-family: "partybusiness";
+    src: url('fonts/partybusiness.ttf');
+}
+
+/* Css interprété depuis Sass sur Sassmeister */
+
+.titleRing {
+  width: 50px;
+  height: 50px;
+  border: solid 5px #f8b31f;
+  border-radius: 50%;
+  box-shadow: 7.1428571429px 6.25px 6.25px #ac7705;
+}
+
+.bigRing {
+  width: 200px;
+  height: 200px;
+  border: solid 20px #f8e00b;
+  border-radius: 50%;
+  box-shadow: 28.5714285714px 25px 25px #998a04;
+}
+
+.loopCircle:nth-child(1) {
+  width: 10px;
+  height: 10px;
+  border: solid 1px #2b2b28;
+  border-radius: 50%;
+  box-shadow: 1.4285714286px 1.25px 1.25px black;
+}
+
+.loopCircle:nth-child(2) {
+  width: 20px;
+  height: 20px;
+  border: solid 2px #2b2b28;
+  border-radius: 50%;
+  box-shadow: 2.8571428571px 2.5px 2.5px black;
+}
+
+.loopCircle:nth-child(3) {
+  width: 30px;
+  height: 30px;
+  border: solid 3px #2b2b28;
+  border-radius: 50%;
+  box-shadow: 4.2857142857px 3.75px 3.75px black;
+}
+
+.loopCircle:nth-child(4) {
+  width: 40px;
+  height: 40px;
+  border: solid 4px #2b2b28;
+  border-radius: 50%;
+  box-shadow: 5.7142857143px 5px 5px black;
+}
+
+.loopCircle:nth-child(5) {
+  width: 50px;
+  height: 50px;
+  border: solid 5px #2b2b28;
+  border-radius: 50%;
+  box-shadow: 7.1428571429px 6.25px 6.25px black;
+}
+
+.loopCircle:nth-child(6) {
+  width: 60px;
+  height: 60px;
+  border: solid 6px #2b2b28;
+  border-radius: 50%;
+  box-shadow: 8.5714285714px 7.5px 7.5px black;
+}
+
+/* Styles des blocs conteneurs */
+body
+{
+  	font-family: "partybusiness", sans-serif;
+  	font-size: 1.2em;
+}
+
+.fond_dark
+{
+	background: url('images/bg_dark.png');
+	color: white;
+}
+.fond_clair, .contenu_dark
+{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.container
+{
+	background: url('images/bg_light.png');
+	padding: 0;
+}
+
+/* Défintion des couleurs personnalisées */
+.orange
+{
+	background-color: #F86424;
+}
+
+.noir
+{
+	background-color: black;
+	color: #E5E0E0;
+}
+a
+{
+	color :#6D6A6A;
+}
+
+/* Styles des navigations */
+
+/* Menu principal*/
+.navbar-nav
+{
+	font-size: 1em;
+	padding-bottom: 2px;
+	font-family: "Aniron", sans-serif;
+}
+.card-text
+{
+	font-size: 1.4em;
+}
+.lienMenu, .lienMenuLast, .most
+{
+	padding-top: 0;
+	padding-bottom: 0;
+	text-decoration: none;
+}
+
+
+/* Styles des titre */
+h1, h2, h3
+{
+	font-family: "Aniron", sans-serif;
+}
+h2
+{
+	padding-left: 1em;
+}
+h1
+{
+	font-size: 1.4em;
+}
+h2
+{
+	font-size: 1.4em;
+}
+
+h3
+{
+	font-size: 1.3em;
+}

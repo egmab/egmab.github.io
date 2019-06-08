@@ -1,0 +1,25 @@
+// De choisir une taille et une couleur pour l'anneau
+// Une ombre colorée doit apparaître (en fonction de la taille et de la couleur choisie)
+// L'épaisseur de l'anneau doit être fonction de la taille choisie
+
+@mixin myRing ($width, $color) {
+  width : $width;
+  height: $width;
+  border: solid $width/10 $color;
+  border-radius: 50%;
+  box-shadow: $width/7 $width/8 $width/8 darken($color, 20);    
+} 
+
+.titleRing {
+  @include myRing(50px, #f8b31f);
+}
+
+.bigRing {
+  @include myRing(200px, #f8e00b);
+}
+
+@for $i from 1 through 6 {
+  .loopCircle:nth-child(#{$i}) {
+  @include myRing($i * 10px, #2b2b28);
+  }
+}
